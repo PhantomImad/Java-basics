@@ -15,3 +15,12 @@ public class patter_4
         }
     }
 }
+
+/*
+Output - 
+5 
+4 4 
+3 3 3 
+2 2 2 2 
+1 1 1 1 1 
+*/
