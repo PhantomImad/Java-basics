@@ -1,8 +1,10 @@
 //Using Scanner class to input data from user
+package Basic_Of_Basics;
+
 import java.util.*;
 
 public class Prg_1 {
-  public static void main() {
+  public static void main(String args[]) {
     Scanner sc = new Scanner(System.in); // Decalres sc as Scanner variable.
     System.out.println("Enter a number");
     int a = sc.nextInt();

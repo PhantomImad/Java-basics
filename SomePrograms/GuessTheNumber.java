@@ -1,7 +1,9 @@
+package SomePrograms;
+
 import java.util.*;
 
 public class GuessTheNumber {
-    public static void main() {
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int a, b, n = 0;
         b = 100;
