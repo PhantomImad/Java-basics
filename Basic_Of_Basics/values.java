@@ -3,7 +3,7 @@ package Basic_Of_Basics;
 
 import java.util.*;
 
-public class Prg_1 {
+public class values {
   public static void main(String args[]) {
     int a = 1;
     System.out.println("Easiest Java program " + a); // Output - Easiest java program 1
