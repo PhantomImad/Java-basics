@@ -1,4 +1,4 @@
-package Patterns;
+package Patterns.Patterns;
 
 import java.util.*;
 
