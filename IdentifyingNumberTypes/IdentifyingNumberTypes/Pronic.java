@@ -17,6 +17,6 @@ public class Pronic {
         if(p==1)
             System.out.println("It is a pronic number");
         else
-            System.out.print("It's not a pronice number.");
+            System.out.print("It's not a pronic number.");
     }
 }

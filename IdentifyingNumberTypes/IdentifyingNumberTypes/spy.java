@@ -3,7 +3,7 @@ A number is a Spy number, if sum and product of all digits are equal. Example: N
 is 6 (1x2x3 = 6), sum and product are same, thus, 123 is a spy number.
 */
 
-package IdentifyingNumberTypes;
+package IdentifyingNumberTypes.IdentifyingNumberTypes;
 
 import java.util.*;
 
