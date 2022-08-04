@@ -2,21 +2,23 @@ package IdentifyingNumberTypes.IdentifyingNumberTypes;
 
 import java.util.Scanner;
 
-public class Niven {
+public class Neon {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
+        System.out.print("Enter a number");
         int n = sc.nextInt();
-        int sum=0;
         int m = n;
+        n = n * n;
+        int sum = 0;
         while (n != 0) {
             int d = n % 10;
-            sum=sum+d;
-            n=n/10;
+            sum = sum + d;
+            n = n / 10;
         }
-        if(m%sum == 0)
-            System.out.print("It is a Niven number");
+        if(sum==m)
+            System.out.print("It is a neon number");
         else
-            System.out.print("Not a Niven number");
+            System.out.print("Not a neon number");
+
     }
 }

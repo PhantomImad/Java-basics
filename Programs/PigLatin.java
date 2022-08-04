@@ -7,6 +7,7 @@ public class PigLatin {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a word");
         String str = sc.next();
+        str = str.toUpperCase();
         String st, s;
         char ch;
         int i;
@@ -19,7 +20,7 @@ public class PigLatin {
         }
         st = str.substring(i, l);
         s = str.substring(0, i);
-        System.out.println(st + s + "ay");
+        System.out.println(st + s + "AY");
 
     }
 }

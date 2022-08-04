@@ -8,14 +8,14 @@ package IdentifyingNumberTypes.IdentifyingNumberTypes;
 import java.util.*;
 
 public class spy {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter");
         int n = sc.nextInt();
-        int s = n, i;
+        int s = n, i, d;
         int sum = 0, b = 1;
-        while (n != 0) {
-            int d = n % 10;
+        while (n > 0) {
+            d = n % 10;
             sum = sum + d;
             b = b * d;
             n = n / 10;
