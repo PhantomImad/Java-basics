@@ -10,6 +10,7 @@ public class Unique {
         int count=0;
         int m = n;
         while (n != 0) {
+            count = 0;
             int d = n % 10;
             while (m != 0) {
                 int d1 = m%10;
