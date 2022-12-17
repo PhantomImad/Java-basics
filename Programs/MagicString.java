@@ -21,9 +21,9 @@ public class MagicString
                     c++;
             }
             if(c>1)
-                System.out.println("Not a unique string");
+                System.out.println("Not a magic string");
             System.exit(42);
         }
-        System.out.println("It is a unique string");
+        System.out.println("It is a magic string");
     }
 }

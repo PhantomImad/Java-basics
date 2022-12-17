@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.DisplayingNumbers;
 
 import java.util.Scanner;
 
@@ -6,11 +6,13 @@ public class DisplayPrimeNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 10 numbers");
-        int n[] = new int[10];
+        int[] n = new int[10];
         DisplayPrimeNumbers obj = new DisplayPrimeNumbers();
         for (int i = 0; i < 10; i++) {
             n[i] = sc.nextInt();
         }
+        System.out.println();
+        System.out.println("Prime numbers :");
         for (int x = 0; x < 10; x++) {
             obj.checkPrime(n[x]);
         }
